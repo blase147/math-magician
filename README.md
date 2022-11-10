@@ -1,18 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# REACT APP
+# MATH MAGICIAN
 
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote.
 
 # Live-Demo (If available)
 
-Here is a [link] (https://blase147.github.io/blase-tv/math-magician) to the live page.
+Here is a [link] (https://blase147.github.io/math-magician/) to the live page.
 
-## Major languages 
+ Major languages 
 - HTML 
 - CSS
 - Javascript
-- Jest
 - React
+- Jest
 
 ## Technologies used 
 - GitHub 
@@ -35,12 +39,11 @@ Here is a [link] (https://blase147.github.io/blase-tv/math-magician) to the live
 
 ### Prerequisites
 
-- Have basic level knowledge about HTML/CSS/JS/ES6
+- Have basic level knowledge about HTML/CSS/JS/ES6/React
 - Have basic level knowledge about linters/Webpack
 - Have basic level knowledge about the working of website
 
-
-## Author
+## Authors
 
 👤 **Chukwuma Paul Mosanya**
 
@@ -64,4 +67,10 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/blase147/math-magician/blob/feature/license) licensed.
+Copyright 2021, [CHUKWUMA PAUL MOSANYA]
+
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this [MATH MAGICIAN] and associated documentation files, to     deal in the [MATH MAGICIAN] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [MATH MAGICIAN], and to permit persons to whom the [MATH MAGICIAN] is furnished to do so, subject to the following conditions:
+
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [MATH MAGICIAN].
+
+> THE [MATH MAGICIAN] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [MATH MAGICIAN] OR THE USE OR OTHER DEALINGS IN THE [MATH MAGICIAN].
