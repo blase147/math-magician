@@ -4,7 +4,7 @@ function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
 
-export default function calculate(obj, buttonName) {
+const calculate = (obj, buttonName) => {
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -109,4 +109,6 @@ export default function calculate(obj, buttonName) {
     next: null,
     operation: buttonName,
   };
-}
+};
+
+export default { calculate };
