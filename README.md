@@ -68,4 +68,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/blase147/math-magician/blob/feature/license) licensed.
+Copyright 2021, [CHUKWUMA PAUL MOSANYA]
