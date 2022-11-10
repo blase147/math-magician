@@ -5,7 +5,7 @@
 
 # Live-Demo (If available)
 
-Here is a [link] (https://blase147.github.io/blase-tv/reactapp) to the live page.
+Here is a [link] (https://blase147.github.io/blase-tv/math-magician) to the live page.
 
 ## Major languages 
 - HTML 
@@ -26,7 +26,7 @@ Here is a [link] (https://blase147.github.io/blase-tv/reactapp) to the live page
 
 ### Steps
 
-- To clone the project select the desired directory in cmd and run: `git clone https://github.com/blase147/reactapp.git`
+- To clone the project select the desired directory in cmd and run: `git clone https://github.com/blase147/math-magician.git`
 - Install npm dependencies: `npm install`
 - To check the live preview: `npm run start`
 - For StyLint test, run: `npx stylelint "**/*.{css,scss}"`
@@ -50,7 +50,7 @@ Here is a [link] (https://blase147.github.io/blase-tv/reactapp) to the live page
 
 - Contributions, issues, and feature requests are welcome!
 
-  Feel free to check the issues page.https://github.com/blase147/reactapp/issues
+  Feel free to check the issues page.https://github.com/blase147/math-magician/issues
 
 ## Show your support
 
@@ -64,4 +64,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/blase147/reactapp/blob/feature/license) licensed.
+This project is [MIT](https://github.com/blase147/math-magician/blob/feature/license) licensed.

@@ -1,18 +1,22 @@
-/* eslint-disable */
 import React from 'react';
-import Home from './components/Home';
-import Calculator from './components/Calculator';
-import Quote from './Quotes';
 
-class App extends React.PureComponent {
-  render() {
-    return (
-      <div>
-      <Home />
-      <Calculator />
-      <Quote />
-      </div>
-    );
-  }
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Quote from './pages/Quote';
+import Calculator from './components/calculator';
+import Navbar from './pages/Navbar';
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/quote" element={<Quote />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </>
+  );
 }
+
 export default App;
