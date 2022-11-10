@@ -4,10 +4,10 @@ function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
 
-const calculate = (obj, buttonName) => {
+export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: null,
+      total: '0',
       next: null,
       operation: null,
     };
@@ -17,15 +17,15 @@ const calculate = (obj, buttonName) => {
     if (buttonName === '0' && obj.next === '0') {
       return {};
     }
+
     if (obj.operation) {
-      if (obj.next && obj.next !== '0') {
+      if (obj.next) {
         return { ...obj, next: obj.next + buttonName };
       }
       return { ...obj, next: buttonName };
     }
 
-    // If there is no operation, update next and clear the value
-    if (obj.next && obj.next !== '0') {
+    if (obj.next) {
       return {
         next: obj.next + buttonName,
         total: null,
@@ -45,15 +45,15 @@ const calculate = (obj, buttonName) => {
       return { ...obj, next: `${obj.next}.` };
     }
     if (obj.operation) {
-      return { ...obj, next: '0.' };
+      return { next: '0.' };
     }
     if (obj.total) {
       if (obj.total.includes('.')) {
         return {};
       }
-      return { ...obj, next: `${obj.total}.` };
+      return { total: `${obj.total}.` };
     }
-    return { ...obj, next: '0.' };
+    return { total: '0.' };
   }
 
   if (buttonName === '=') {
@@ -64,7 +64,7 @@ const calculate = (obj, buttonName) => {
         operation: null,
       };
     }
-    // '=' with no operation, nothing to do
+
     return {};
   }
 
@@ -78,19 +78,13 @@ const calculate = (obj, buttonName) => {
     return {};
   }
 
-  // User pressed an operation after pressing '='
   if (!obj.next && obj.total && !obj.operation) {
     return { ...obj, operation: buttonName };
   }
 
-  // User pressed an operation button and there is an existing operation
   if (obj.operation) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
-    }
-
-    if (!obj.total) {
-      return { total: 0, operation: buttonName };
     }
 
     return {
@@ -109,6 +103,4 @@ const calculate = (obj, buttonName) => {
     next: null,
     operation: buttonName,
   };
-};
-
-export default { calculate };
+}

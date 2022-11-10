@@ -1,21 +1,19 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Quote from './pages/Quote';
 import Calculator from './components/calculator';
-import Navbar from './pages/Navbar';
 
-function App() {
-  return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/quote" element={<Quote />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/calculator" element={<Calculator />} />
-      </Routes>
-    </>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = null;
+  }
+
+  render() {
+    return (
+      <div className="calculatorSection">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
