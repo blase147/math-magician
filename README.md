@@ -39,10 +39,9 @@ Here is a [link] (https://blase147.github.io/math-magician/) to the live page.
 
 ### Prerequisites
 
-- Have basic level knowledge about HTML/CSS/JS/ES6
+- Have basic level knowledge about HTML/CSS/JS/ES6/React
 - Have basic level knowledge about linters/Webpack
 - Have basic level knowledge about the working of website
-
 
 ## Authors
 
@@ -69,3 +68,9 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021, [CHUKWUMA PAUL MOSANYA]
+
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this [MATH MAGICIAN] and associated documentation files, to     deal in the [MATH MAGICIAN] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [MATH MAGICIAN], and to permit persons to whom the [MATH MAGICIAN] is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [MATH MAGICIAN].
+
+THE [MATH MAGICIAN] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [MATH MAGICIAN] OR THE USE OR OTHER DEALINGS IN THE [MATH MAGICIAN].
