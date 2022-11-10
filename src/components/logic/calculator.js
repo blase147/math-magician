@@ -23,6 +23,7 @@ export default function calculate(obj, buttonName) {
       }
       return { ...obj, next: buttonName };
     }
+    
     // If there is no operation, update next and clear the value
     if (obj.next && obj.next !== '0') {
       return {

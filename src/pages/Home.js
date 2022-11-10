@@ -20,7 +20,7 @@ export default function Home() {
         iure autem vel hic aspernatur eum rerum. Voluptatibus, asperiores iste
         in tenetur nulla officiis libero debitis dolorem sit eos placeat?
       </p>
-      {' '}
+        {' '}
     </div>
   );
 }
