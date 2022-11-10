@@ -21,7 +21,7 @@ function Navbar() {
   ];
   return (
     <div className="nav_bar">
-      <h1 className="heading">Math Magicians</h1>
+      <h1 className="heading">Math Magician</h1>
       <nav>
         <ul>
           {links.map((link) => (
