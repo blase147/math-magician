@@ -1,18 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# REACT APP
+# MATH MAGICIAN
 
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote.
 
 # Live-Demo (If available)
 
-Here is a [link] (https://blase147.github.io/blase-tv/math-magician) to the live page.
+Here is a [link] (https://blase147.github.io/math-magician/) to the live page.
 
-## Major languages 
+ Major languages 
 - HTML 
 - CSS
 - Javascript
-- Jest
 - React
+- Jest
 
 ## Technologies used 
 - GitHub 
@@ -40,7 +44,7 @@ Here is a [link] (https://blase147.github.io/blase-tv/math-magician) to the live
 - Have basic level knowledge about the working of website
 
 
-## Author
+## Authors
 
 👤 **Chukwuma Paul Mosanya**
 
