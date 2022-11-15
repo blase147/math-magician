@@ -12,6 +12,7 @@ const Home = () => (
         Mathematics includes the study of such topics as numbers, formulas and
         related structures, shapes and spaces in which they are contained,
         and quantities and their changes.
+        
         There is no general consensus about its exact scope or epistemological status.
         Calculators allow people around the world solve complicated problems quickly and
         in an efficient manner.
