@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Route, BrowserRouter } from 'react-router-dom';
 import './pages/App.css';
 import Calculator from './components/calculator';
 import Navbar from './components/Navbar';
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Switch>
+      <BrowserRouter>
         <Route exact path="/">
           <Home />
         </Route>
@@ -24,7 +24,7 @@ function App() {
         <Route path="*">
           <NotMatch />
         </Route>
-      </Switch>
+      </BrowserRouter>
     </>
   );
 }
