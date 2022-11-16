@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Router } from 'react-router-dom';
 import './pages/App.css';
 import Calculator from './components/calculator';
 import Navbar from './components/Navbar';
@@ -12,18 +12,12 @@ function App() {
     <>
       <Navbar />
       <BrowserRouter>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/calculator">
-          <Calculator />
-        </Route>
-        <Route path="/quote">
-          <Quote />
-        </Route>
-        <Route path="*">
-          <NotMatch />
-        </Route>
+        <Router>
+          <Route exact path="/"><Home /></Route>
+          <Route path="/calculator"><Calculator /></Route>
+          <Route path="/quote"><Quote /></Route>
+          <Route path="*"><NotMatch /></Route>
+        </Router>
       </BrowserRouter>
     </>
   );
