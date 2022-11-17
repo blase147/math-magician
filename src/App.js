@@ -1,26 +1,23 @@
 import React from 'react';
-import { BrowserRouter, Route, Router } from 'react-router-dom';
-import './pages/App.css';
-import Calculator from './components/calculator';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Quote from './pages/Quote';
-import NotMatch from './pages/NotMatch';
+import { Routes, Route } from 'react-router-dom';
+import Calculator from './components/calculatorPage/calculator';
+import Quotes from './components/quotePage/quote';
+import HomePage from './components/homePage/home';
+import Navbar from './components/navbarHeading/navbar';
 
-function App() {
-  return (
-    <>
-      <Navbar />
-      <BrowserRouter>
-        <Router>
-          <Route exact path="/"><Home /></Route>
-          <Route path="/calculator"><Calculator /></Route>
-          <Route path="/quote"><Quote /></Route>
-          <Route path="*"><NotMatch /></Route>
-        </Router>
-      </BrowserRouter>
-    </>
-  );
+class App extends React.PureComponent {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quotes />} />
+        </Routes>
+      </div>
+    );
+  }
 }
 
 export default App;
