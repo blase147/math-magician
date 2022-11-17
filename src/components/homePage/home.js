@@ -5,7 +5,7 @@ import './home.css';
 const HomePage = () => (
   <div className="home-container">
     <h1 className="title">
-      Welcome to My page!
+      Welcome to our page!
     </h1>
     <br />
     <p className="home-text">
