@@ -9,7 +9,7 @@
 
 # Live-Demo (If available)
 
-Here is a [link] (https://blase147.github.io/math-magician/) to the live page.
+Here is a [link] (https://blase-math-magician.netlify.app/) to the live page.
 
  Major languages 
 - HTML 
